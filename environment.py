@@ -49,7 +49,6 @@ class MultiStockEnv():
 
     def _trade(self, action):
         action_vec = self.action_list[action]
-
         sell_index = []
         buy_index = []
 

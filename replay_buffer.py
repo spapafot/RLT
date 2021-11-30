@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class ReplayBuffer():
     def __init__(self, obs_dim, act_dim, size):
         self.obs1_buff = np.zeros([size, obs_dim])

@@ -6,13 +6,12 @@ from agent import DQNAgent
 import argparse
 import pickle
 
-filepath='.csv'
+filepath='/'
 
 def get_data(filepath):
     data = pd.read_csv(filepath)
     return data.values
 
-df = get_data(filepath)
 
 def get_scaler(env):
 
